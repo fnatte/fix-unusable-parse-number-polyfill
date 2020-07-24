@@ -1,0 +1,20 @@
+{
+  "name": "fix-unusable-parse-number-polyfill",
+  "version": "1.0.0",
+  "description": "Fixes parseInt and parseFloat which are broken in all major browsers.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "author": "Matteus Hemström",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
+  }
+}
