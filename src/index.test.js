@@ -9,6 +9,50 @@ describe('parseInt', () => {
     expect(parseInt('🔞')).toBe(19);
   });
 
+  it('should obviously return 1 for 1️', () => {
+    expect(parseInt('1️')).toBe(1);
+  });
+
+  it('should obviously return 2 for 2️', () => {
+    expect(parseInt('2️')).toBe(2);
+  });
+
+  it('should obviously return 3 for 3️⃣', () => {
+    expect(parseInt('3️⃣')).toBe(3);
+  });
+
+  it('should obviously return 4 for 4️⃣', () => {
+    expect(parseInt('4️⃣')).toBe(4);
+  });
+
+  it('should obviously return 5 for 5️⃣', () => {
+    expect(parseInt('5️⃣')).toBe(5);
+  });
+
+  it('should obviously return 6 for 6️⃣', () => {
+    expect(parseInt('6️⃣')).toBe(6);
+  });
+
+  it('should obviously return 7 for 7️⃣', () => {
+    expect(parseInt('7️⃣')).toBe(7);
+  });
+
+  it('should obviously return 8 for 8️⃣', () => {
+    expect(parseInt('8️⃣')).toBe(8);
+  });
+
+  it('should obviously return 9 for 9️⃣', () => {
+    expect(parseInt('9️⃣')).toBe(9);
+  });
+
+  it('should obviously return 10 for 🔟', () => {
+    expect(parseInt('🔟')).toBe(10);
+  });
+
+  it('should obviously return 12 for 1️2️', () => {
+    expect(parseInt('1️2️')).toBe(12);
+  });
+
   it('should obviously return 9876543210 for 9️⃣8️⃣7️⃣6️⃣5️⃣4️⃣3️⃣2️⃣1️⃣0️⃣', () => {
     expect(parseInt('9️⃣8️⃣7️⃣6️⃣5️⃣4️⃣3️⃣2️⃣1️⃣0️⃣')).toBe(9876543210);
   });
