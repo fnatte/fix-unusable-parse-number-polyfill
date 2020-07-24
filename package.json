@@ -9,6 +9,7 @@
   },
   "author": "Matteus Hemström",
   "license": "MIT",
+  "repository": "github:fnatte/fix-unusable-parse-number-polyfill",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.10.5",
