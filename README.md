@@ -43,6 +43,7 @@ parseFloat('0.🥇'); // 0.1
 
 - [x] Fix parseInt
 - [x] Fix parseFloat
+- [ ] Handle unicode better
 - [ ] Make ponyfill
 - [ ] RFC
 
